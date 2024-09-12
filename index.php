@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+p<!DOCTYPE html>
 <html>
 <head>
 	<title>MySQL Table Viewer</title>
@@ -21,7 +21,7 @@
 		}
 
 		// Query database for all rows in the table
-		$sql = "SELECT * FROM mytable";
+		$sql = "SELECT * FROM employees";
 		$result = $conn->query($sql);
 
 		if ($result->num_rows > 0) {
