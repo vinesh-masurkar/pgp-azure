@@ -5,7 +5,6 @@
 </head>
 <body>
 	<h1>MySQL Table Viewer</h1>
-	<h2> selecting Top 10 rows of the employees table</h2
 	<?php
 		// Define database connection variables
 		$servername = "strangfigdbserver.mysql.database.azure.com";
@@ -22,7 +21,7 @@
 		}
 
 		// Query database for all rows in the table
-		$sql = "SELECT * FROM employees limit 10";
+		$sql = "SELECT * FROM employees";
 		$result = $conn->query($sql);
 
 		if ($result->num_rows > 0) {
