@@ -5,7 +5,6 @@
 </head>
 <body>
 	<h1>MySQL Table Viewer</h1>
-	<h2> selecting Top 10 rows of the employees table</h2>
 	<?php
 		// Define database connection variables
 		$servername = "strangfigdbserver.mysql.database.azure.com";
